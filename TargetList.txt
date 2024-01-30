@@ -1,0 +1,74 @@
+# Comment any lines with a "#"
+#Filter List:
+# 0 - Clear
+# 1 - B
+# 2 - V
+# 3 - R
+# 4 - I
+# 5 - H Alpha
+# 6 - O III
+# 7 - N II
+# 8 - S II
+# 9 - Grism
+# -1 - Keep previous filter
+
+Dest	C:\Users\Bell\Data\
+
+# First target
+RA	5h 36m 0s
+Dec	-5d 15m 0s
+Object	M43
+#Focus 2.5		#uncomment to perform autofocus
+Filter	0
+Expose 60
+Expose 60
+Expose 60
+Expose 60
+Expose 60
+Filter	1
+Expose 60
+Expose 60
+Expose 60
+Expose 60
+Expose 60
+Filter	2
+Expose 60
+Expose 60
+Expose 60
+Expose 60
+Expose 60
+Filter	3
+Expose 60
+Expose 60
+Expose 60
+Expose 60
+Expose 60
+
+# Second Target
+RA	5h 36m 0s
+Dec	-4d 40m 0s
+Object	NGC 1975		#add an OBJECT FITS key to these as well
+Filter	0
+Expose 45
+Expose 45
+Expose 45
+Expose 45
+Expose 45
+Filter	1
+Expose 45
+Expose 45
+Expose 45
+Expose 45
+Expose 45
+Filter	2
+Expose 45
+Expose 45
+Expose 45
+Expose 45
+Expose 45
+Filter	3
+Expose 45
+Expose 45
+Expose 45
+Expose 45
+Expose 45
