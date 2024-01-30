@@ -1,1 +1,8 @@
-
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Haehn
+    given-names: Maxx
+title: "Bell Observatory Automation Script"
+version: 1.0
+date-released: 2024-01-30
