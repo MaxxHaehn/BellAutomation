@@ -53,6 +53,9 @@ This code was built for Windows (hence .vbs) using an ACE SmartDome, PlaneWave I
 ### Features of TargetList
 * Can input RA/Dec of target in hh:mm:ss and dd:mm:ss format
 * Can also input altitude and azimuth
+* Can choose from 10 different filters (unfiltered, B, V, R, Ha, OIII, SII, NII, GRISM)
+* Can expose same target multiple times, changing filters if needed
+* Script stores images with relevant FITS header information (coords, time, exp time, filter, observatory info, etc.)
 ### Upcoming Features
 * Once flat field screen is installed, create code block between shutter opening block and light frames block
   * This code block will function very similar to the bias block, but it will slew to a fixed altitude and azimuth and then turn off tracking via scope commands to stay fixed on flat field screen.
