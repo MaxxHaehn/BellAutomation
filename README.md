@@ -6,4 +6,4 @@ Users then input the target list file name (".txt"-inclusive), and the observato
 Please see the code for comments and specific documentation
 This code was built for Windows (hence .vbs) using an ACE SmartDome, PlaneWave Instruments 4 Telescope and Shutter software, and MaximDL for imaging and file saving.
 ## Credits
-The "barebones" of this code (specifically the Process, TakeExposure, and PrepareToImage subroutines, and the GetSequenceNumber function) were initially written by ACP Observatory Control Software.  See [https://diffractionlimited.com/maxim-dl-extras/] for the original code.
+The "barebones" of this code (specifically the Process, TakeExposure, and PrepareToImage subroutines, and the GetSequenceNumber function) were initially written by ACP Observatory Control Software.  See [https://diffractionlimited.com/maxim-dl-extras/] for the original code, specifically "Sequenced Image Acquisition".  I cannot find the original author yet.
