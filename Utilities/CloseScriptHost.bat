@@ -1,0 +1,1 @@
+taskkill /F /FI "WindowTitle eq Windows Script Host"
