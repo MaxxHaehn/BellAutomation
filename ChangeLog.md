@@ -14,6 +14,8 @@ Converted initial sun alt check into SunLowEnough Sub; added:
 * sunaltnow = Empty
 Into the beginning of the sub; hopefully this will fix the wrong alt issue.
 
+Converted b/t exposure sun alt check into SunTooHigh Sub (makes it easier to comment this out when running daytime tests).
+
 Found commands for proper de-rotation and implemented them:
 * http://localhost:8220/rotator/goto_field?degs=### (can set this to some arbitrary number it seems) (put this after the stop command)
 * http://localhost:8220/rotator/stop (use this after going to new object) (also add this in the EndOfNight Sub)
