@@ -23,3 +23,5 @@ Found commands for proper de-rotation and implemented them:
 Changed FITS header output lines:
 * If azi <> "" Then Camera.SetFITSKey "OBJECTAZ", azi
 *	If objalt <> "" Then Camera.SetFITSKey "OBJECTALT", objalt
+
+Added shell.CurrentDirectory = "C:\Users\Bell\Documents\Acquire" before turning off bug light in observatory opening area.
