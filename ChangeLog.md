@@ -25,3 +25,10 @@ Changed FITS header output lines:
 *	If objalt <> "" Then Camera.SetFITSKey "OBJECTALT", objalt
 
 Added shell.CurrentDirectory = "C:\Users\Bell\Documents\Acquire\Utilities" before turning off bug light in observatory opening area.
+
+Added RA/Dec conversion to "hh mm ss" and "dd mm ss" format for fits header (no actual h,d,m, and s letters in the string, so the archive can input these into the file list better):
+* 'Convert RA/Dec to : format
+* RAcon = Empty
+* Deccon = Empty
+* RAcon = CStr(Replace(Replace(Replace(RAunmod,"h",""),"m",""),"s",""))
+* Deccon = CStr(Replace(Replace(Replace(Decunmod,"d",""),"m",""),"s",""))
