@@ -24,4 +24,4 @@ Changed FITS header output lines:
 * If azi <> "" Then Camera.SetFITSKey "OBJECTAZ", azi
 *	If objalt <> "" Then Camera.SetFITSKey "OBJECTALT", objalt
 
-Added shell.CurrentDirectory = "C:\Users\Bell\Documents\Acquire" before turning off bug light in observatory opening area.
+Added shell.CurrentDirectory = "C:\Users\Bell\Documents\Acquire\Utilities" before turning off bug light in observatory opening area.
