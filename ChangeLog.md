@@ -32,3 +32,8 @@ Added RA/Dec conversion to "hh mm ss" and "dd mm ss" format for fits header (no 
 * Deccon = Empty
 * RAcon = CStr(Replace(Replace(Replace(RAunmod,"h",""),"m",""),"s",""))
 * Deccon = CStr(Replace(Replace(Replace(Decunmod,"d",""),"m",""),"s",""))
+
+## 2/6/24:
+Commented out rotator stop get and send commands for now (until PWI fix is implemented)
+Changed objalt -> alt for FITS header saving (this way, if objalt check =/ alt, will still input correct object alt in FITS header
+Updated objectcoordspy.py script (changed  line 15 from “objectra = lines[0]” to “objectra = 15*float(lines[0])”).
